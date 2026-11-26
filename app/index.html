@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DompetKeluarga — Anggaran Rumah Tangga Keluarga Prasetyo</title>
+<meta name="description" content="DompetKeluarga: situs anggaran rumah tangga Keluarga Prasetyo, Jakarta. Pantau pemasukan, pengeluaran, anggaran per kategori, tabungan, tagihan, dan laporan bulanan — semua offline, tanpa akun.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#/">
+    <span class="brand-mark" aria-hidden="true">Rp</span>
+    <span class="brand-text"><strong>DompetKeluarga</strong><small>Anggaran Keluarga Prasetyo · Jakarta</small></span>
+  </a>
+  <nav class="mainnav" aria-label="Navigasi utama">
+    <a href="#/" data-route="">Beranda</a>
+    <a href="#/pemasukan" data-route="pemasukan">Pemasukan</a>
+    <a href="#/pengeluaran" data-route="pengeluaran">Pengeluaran</a>
+    <a href="#/anggaran" data-route="anggaran">Anggaran</a>
+    <a href="#/tabungan" data-route="tabungan">Tabungan</a>
+    <a href="#/tagihan" data-route="tagihan">Tagihan</a>
+    <a href="#/laporan" data-route="laporan">Laporan</a>
+    <a href="#/kalkulator" data-route="kalkulator">Kalkulator 50/30/20</a>
+  </nav>
+  <div class="month-picker">
+    <label for="month-select">Bulan</label>
+    <select id="month-select" aria-label="Pilih bulan"></select>
+  </div>
+</header>
+<main id="app" aria-live="polite"></main>
+<footer class="site-footer">
+  <p><strong>DompetKeluarga</strong> — anggaran rumah tangga Keluarga Prasetyo, Jakarta. Data contoh bulan Juni–November 2026, tersimpan hanya di memori peramban selama halaman ini dibuka; tidak ada akun, tidak ada data yang dikirim ke mana pun.</p>
+  <p class="footer-links"><a href="#/laporan">Laporan 6 bulan</a> · <a href="#/kalkulator">Kalkulator 50/30/20</a> · <a href="#/tagihan">Tagihan bulan ini</a></p>
+</footer>
+<script type="module" src="main.js"></script>
+</body>
+</html>
